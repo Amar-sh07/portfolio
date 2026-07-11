@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amar Shahare | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== Navbar ===== -->
+
+    <nav class="navbar">
+
+        <h2 class="logo">Amar.</h2>
+
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </nav>
+
+    <!-- ===== Hero Section ===== -->
+
+    <section id="home" class="hero" data-aos="fade-up">
+
+        <div class="content">
+
+            <h3>Hello 👋 I'm</h3>
+
+            <h1>Amar Shahare</h1>
+
+            <h2>I am <span id="typing"></span></h2>
+
+            <p>
+                Passionate Python learner and future Django Developer.
+                I love creating beautiful, responsive websites and learning
+                modern web technologies.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#contact" class="btn">
+                    Hire Me
+                </a>
+
+                <a href="#" class="btn2">
+                    Download CV
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="image">
+
+            <img src="images/profile.jpg" alt="Amar Shahare">
+
+        </div>
+
+    </section>
+    
+        <!-- ===== About Section ===== -->
+
+    <section id="about" class="about" data-aos="fade-right">
+
+        <div class="about-img">
+            <img src="images/ama1.jpg" alt="About Amar">
+        </div>
+
+        <div class="about-content">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I'm <strong>Amar Shahare</strong>, a passionate Python learner
+                and future Django Developer. I enjoy building modern websites,
+                learning new technologies, and improving my programming skills.
+            </p>
+
+            <p>
+                My goal is to become a Full Stack Developer and create real-world
+                web applications that solve real problems.
+            </p>
+
+            <a href="#" class="btn">Download Resume</a>
+
+        </div>
+
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+
+    <section id="skills" data-aos="fade-left">
+
+        <h2 class="heading">My Skills</h2>
+
+        <div class="skill">
+
+            <p>HTML</p>
+            <div class="bar"><div class="fill html"></div></div>
+
+            <p>CSS</p>
+            <div class="bar"><div class="fill css"></div></div>
+
+            <p>JavaScript</p>
+            <div class="bar"><div class="fill js"></div></div>
+
+            <p>Python</p>
+            <div class="bar"><div class="fill python"></div></div>
+
+            <p>Django</p>
+            <div class="bar"><div class="fill django"></div></div>
+
+        </div>
+
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+
+    <section id="projects" data-aos="zoom-in">
+
+        <h2 class="heading">My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>🌐 Portfolio Website</h3>
+                <p>Responsive portfolio built using HTML, CSS and JavaScript.</p>
+                <a href="#">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>🌦 Weather App</h3>
+                <p>Weather application using JavaScript and Weather API.</p>
+                <a href="#">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>🐍 Django Blog</h3>
+                <p>Modern blog website built using Django framework.</p>
+                <a href="#">Live Demo</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+  <!-- ===== Contact Section ===== -->
+
+<section id="contact" class="contact" data-aos="fade-up">
+
+    <h2 class="heading">Contact Me</h2>
+
+    <form id="contact-form">
+
+        <input 
+            type="text" 
+            name="from_name"
+            placeholder="Your Name" 
+            required
+        >
+
+        <input 
+            type="email" 
+            name="from_email"
+            placeholder="Your Email" 
+            required
+        >
+
+        <textarea 
+            name="message"
+            rows="6" 
+            placeholder="Your Message"
+            required
+        ></textarea>
+
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+    <!-- ===== Footer ===== -->
+
+    <footer>
+
+        <p>
+            © 2026 Amar Shahare | All Rights Reserved ❤️
+        </p>
+
+    </footer>
+
+    <!-- ===== Libraries ===== -->
+
+<!-- ===== Libraries ===== -->
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Main JavaScript -->
+<script src="script.js"></script>
+
+<button id="topBtn">⬆</button>
+
+</body>
+</html>
